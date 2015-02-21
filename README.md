@@ -12,7 +12,17 @@ Hide private menu items from guests. Private pages can be found using the search
 
 == Description ==
 
-Wordpress Member Navbar allows you to hide private pages from guests. When the user is logged in, the pages will be visible in the menu.
+Wordpress Member Navbar allows you to hide private pages from guests.
+
+Any pages that have their visibility set to private will be ommitted by the menu for any user that is a guest. When a user logs in those private pages will appear in the navbar.
+
+Private pages may not appear in the page list from the menu creation tool. Instead simply use the search box to find the private page, and then add it as normal to the menu.
+
+This can be useful for user based pages such as account settings or forums etc.
+
+To change a page to private, use the Visibility option under the Publish box in the top-right hand of the editor window:
+
+More details: [WordPress Member Navbar](http://www.richard-stanton.com/wordpress/wordpress-member-navbar/)
 
 == Installation ==
 
@@ -29,6 +39,7 @@ From the menus editor (Appearance -> Menus) use the "Search" box to search for t
 1. Guest menu
 2. Member menu
 3. Adding private pages
+4. Setting a page to private
 
 == Changelog ==
 

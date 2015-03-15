@@ -4,7 +4,7 @@ Donate link: http://www.richard-stanton.com/Wordpress-Member-Navbar
 Tags: private, member, navbar
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,11 @@ From the menus editor (Appearance -> Menus) use the "Search" box to search for t
 4. Setting a page to private
 
 == Changelog ==
+
+= 0.2 =
+*Release Date - 15th March, 2015*
+
+* Changed the filter priority so that the menu should work better with other plugins.
 
 = 0.1 =
 *Release Date - 21st December, 2014*

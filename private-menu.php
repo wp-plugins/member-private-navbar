@@ -3,13 +3,13 @@
  * Plugin Name: Member Private Menu
  * Plugin URI: http://www.richard-stanton.com/Wordpress-Member-Navbar
  * Description: Hide private menu items from guests. Private pages can be found using the search box on the menu creation screen.
- * Version: 0.1
+ * Version: 0.2
  * Author: Richard Stanton
  * Author URI: http://www.richard-stanton.com
  * License: GPL2
  */
 
-add_filter( 'wp_get_nav_menu_items', 'wp_remove_private_pages', 10, 3 );
+add_filter( 'wp_get_nav_menu_items', 'wp_remove_private_pages', 1, 3 );
 
 if ( ! function_exists( 'wp_remove_private_pages' ) ) :
 
